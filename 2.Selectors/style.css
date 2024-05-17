@@ -1,0 +1,94 @@
+
+*{
+     font-family: cursive ;
+}
+
+/* universal selector */
+
+
+
+
+body{
+    font-size: 20px;
+} 
+/* yahan pr html ki puri body ko set karsakhte hain jese humne font kiya  */
+
+
+
+
+
+
+#first ,#second {
+    color: aqua;
+} 
+
+/* grouping selector use */
+
+/* #second{
+    color: rgb(248, 18, 18);
+}
+
+#third{
+    color: coral;
+} */
+
+/* yahan pr agr hamare pass list hai or hum chahte hai ke sab ko alag alag color text bg etc.dene chahte hain to id use karenge lakeen id ka use hum javascript me karenge iske css me class ka hi use hota hai  */
+/* 
+1- id of an element is unique so you can use only one unique element
+2- id symbol use # 
+3- id cannot start with a number */
+
+
+
+
+
+.orange{color: purple;}
+
+.highlight {background:yellow;
+font-weight: bolder;}
+
+/* 1- class cannot start with a numbers 
+2- Html elements 1 se jyada class use karskhte hain
+3- class symbol use (.) 
+4- class ko hum html elements me 1 se jayda use karsakhte hai space de de kr */
+
+
+
+
+
+
+
+
+/* nested selector use  */
+
+#first>p {
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+/* Specificity order 
+
+    id > class > element
+    
+    chahe #tag uper ho ya niche agr humne class me color purple diya ho
+    or agr hum # id ka use karke color dete hai to purple ka use nhi hoga 
+    balki id color ko jyada pyority di jayegi
+    */
+
+
+
+/* 
+    important rule 
+
+    jyada use nhi karte hain 
+    !important
+
+    iska use tab hoga jab hume id ko hatakr class ko imp dena hota hai tab usi 
+    jagh ise use karte hai !important 
+    
+    iska use hum buttons me home pr ya dusre kisi khas jagah use karte hain*/

@@ -1,0 +1,98 @@
+/* .container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    overflow: auto;
+
+    /* overflow me 4 values hoti hai }*/
+
+    /* .container{
+        border: 2px solid red;
+        width: auto;
+        height: auto;
+    }
+
+
+    .img1{
+        float: right;
+        margin-left: 40px;
+    }
+
+
+    .img2 {
+    float: left;
+    }
+
+
+    .p1{
+    border: 2px solid green;
+    margin-right: 100px;
+    }
+
+    .p2{
+        /* clear: right;*/
+        /* clear: both;
+    }
+
+
+    .block1{
+    overflow: auto;
+    }  */ */
+
+
+
+    /* clear & float ka use hume sirf img or text ko set karne me hi use karna chahiye  */
+
+
+
+
+
+
+
+
+
+ 
+
+    .container{ 
+        
+    width: 600px;
+    height: 600px;
+    background-color: gainsboro;
+   
+    }
+    
+    .box{
+        width: 100px;
+    height: 100px;
+    border: 2px solid red ;
+    overflow: auto;
+    }
+    
+    .b1{
+        background-color: red;
+        float: right;
+       
+    
+      
+        }
+    
+    
+    .b2{
+        background-color: blue; 
+       float: left;
+    } 
+
+    .b3{
+        background-color: green;
+    
+    float: left;
+      
+        }
+    
+ 
+    
+    .b4{
+        background-color: purple;
+      
+    float: left;
+    }

@@ -1,0 +1,49 @@
+
+
+
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1rem;
+font-weight: 400;
+
+
+}
+p{
+    display: inline ;
+    width: 40px;
+
+    /* inline elements ka hum height or width 
+    change nhi karsakhte hain 
+    
+    or agr hum inline block karte hai to width or height 
+    badh jayega
+    
+    */
+}
+
+ul{
+    list-style: none;
+    text-align: end;
+    padding: 10px;
+    margin: 0;
+    background-color: black;
+    color: azure;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+li:hover{
+    color: pink;
+    cursor: pointer;
+}
+

@@ -1,0 +1,79 @@
+
+/* *{
+  margin: 0;
+  padding: 0; 
+
+}
+
+body {
+
+} */
+
+
+
+p{color: white;}
+
+.container{ 
+    
+width: 300px;
+height: 600px;
+background-color: gainsboro;
+margin: 100px;
+}
+
+.box{
+    width: 100px;
+height: 100px;
+}
+
+.red{
+    background-color: red;
+     position: relative;
+     top: 100px;
+     left: 100px;
+
+
+     /* relative parent ke andr kahin pr bhi work karega */
+    }
+
+
+.blue{
+    background-color: blue; 
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+
+    /* absolute ka parent html hai yaani ye html ke andr kahi bhi 
+    ja sakhta hai  */
+/* 
+    absolute apne parent me dekhta hai agr parent relative hai to 
+    absolute html ko chodkr container me chale jayega */
+
+    }
+
+
+.green{
+    background-color: green;
+     position: fixed;
+     top: 100px;
+    right: 70px;
+    z-index: 1;
+
+    /* fixed hota hai iska parent html hai  */
+    }
+
+.spacer{
+    height: 300vh;
+}
+
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 50px;
+
+    /* sticky parent container ke andr hai 1 hi jagah hota hai
+     jese fixed hota same vesa hi but yeh only parent container 
+     me hi kaam karta hai  */
+}
+
